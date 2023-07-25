@@ -77,4 +77,12 @@ currencyOne.addEventListener("change", getCurrencyRates);
 currencyTwo.addEventListener("change", getCurrencyRates);
 dynamicTextCurrencyOne.addEventListener("input", getCurrencyRates);
 
+swapBtn.addEventListener("click", () => {
+  [currencyOne.value, currencyTwo.value] = [
+    currencyTwo.value,
+    currencyOne.value,
+  ];
+  getCurrencyRates();
+});
+
 init();
