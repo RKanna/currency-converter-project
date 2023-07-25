@@ -63,7 +63,7 @@ function getCurrencyRates() {
     console.log(data);
     const rate = data.conversion_rate.toFixed(2);
     console.log(`1 ${currencyFirst} = ${rate}${currencySecond}`);
-    inputEle.innerText = `1 ${currencyFirst} = ${rate}${currencySecond}`;
+    inputEle.innerText = `1 ${currencyFirst} = ${rate} ${currencySecond}`;
 
     dynamicTextCurrencyTwo.value = Number(amountOne) * Number(rate);
     // dynamicTextCurrencyTwo.value = `${rate}`;
