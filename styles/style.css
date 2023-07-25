@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  border-radius: 0.5rem;
 }
 .arrow-dollar {
   width: 10rem;
@@ -64,6 +65,7 @@ h1 {
   height: 3rem;
   margin-left: -9rem;
   border: 1px solid gray;
+  background-color: #f4f4f4;
 }
 .currency-box {
   width: 30%;
@@ -71,11 +73,12 @@ h1 {
   border: transparent;
   outline: none;
   text-align: right;
+  background-color: #f4f4f4;
 }
 .btn-swap {
   width: 15%;
   height: 2rem;
-  margin-left: -2.5rem;
+  margin-left: -1rem;
   background-color: #5ebba6;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -83,4 +86,5 @@ h1 {
 .paraTwo {
   margin-left: 5rem;
   margin-top: 0.5rem;
+  color: #5ebba6;
 }
