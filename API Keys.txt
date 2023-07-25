@@ -1,0 +1,2 @@
+Your API Key: ba1793056b601fe3922b5ff7
+Example Request: https://v6.exchangerate-api.com/v6/ba1793056b601fe3922b5ff7/latest/USD
