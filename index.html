@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="
+    text/css"
+      href="./styles/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Currency-Converter</title>
+    <link rel="shortcut icon" href="icons/logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="internal-section">
+      <div class="imgcontainer">
+        <img
+          src="/imgs/dollar-sign-with-rotating-arrows.png"
+          alt="arrow dollar"
+          class="arrow-dollar"
+        />
+      </div>
+      <h1>Exchange Rate Calculator</h1>
+      <p class="para">
+        Choose the currency and the amounts to get the exchange rate
+      </p>
+
+      <section class="currency-element">
+        <div class="currency-row-div">
+          <label for="currency-name" class="pick"></label>
+          <select
+            name="currency-price"
+            id="currency-price-one"
+            class="currency-price"
+          >
+            <option value="INR">INR</option>
+          </select>
+          <input
+            type="number"
+            name="display"
+            class="currency-box"
+            id="currency-one-input"
+            value="1"
+          />
+        </div>
+
+        <div class="currency-row-divTwo">
+          <button class="btn-swap" id="btnSwap">Swap</button>
+          <p class="paraTwo" id="inputEle">1 INR = 1 INR</p>
+        </div>
+
+        <div class="currency-row-div">
+          <label for="currency-name" class="pick"></label>
+          <select
+            name="currency-price"
+            id="currency-price-two"
+            class="currency-price"
+          >
+            <option value="INR">INR</option>
+          </select>
+          <input
+            type="number"
+            name="display"
+            class="currency-box"
+            id="currency-two-input"
+            value="1"
+          />
+        </div>
+      </section>
+    </section>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
