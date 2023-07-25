@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --clr-sky-blue: #8ecae6ff;
+  --clr-blue-green: #219ebcff;
+  --clr-brussian-blue: #023047ff;
+  --clr-selective-yellow: #ffb703ff;
+  --clr-ut-orange: #fb8500ff;
+  --light-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+body {
+  font-family: "Lato", sans-serif;
+  min-width: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.internal-section {
+  width: 45rem;
+  height: 40rem;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.arrow-dollar {
+  width: 10rem;
+}
+h1 {
+  color: #5ebba6;
+}
+.para {
+  padding-bottom: 3rem;
+}
+
+.currency-element {
+  width: 75%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.currency-row-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.currency-row-divTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.currency-price {
+  width: 20%;
+  height: 3rem;
+  margin-left: -9rem;
+  border: 1px solid gray;
+}
+.currency-box {
+  width: 30%;
+  height: 3rem;
+  border: transparent;
+  outline: none;
+  text-align: right;
+}
+.btn-swap {
+  width: 15%;
+  height: 2rem;
+  margin-left: -2.5rem;
+  background-color: #5ebba6;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.paraTwo {
+  margin-left: 5rem;
+  margin-top: 0.5rem;
+}
